@@ -1,0 +1,296 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.top-nav{
+    margin-top: 0;
+    height: 100px;
+    width: 100%;
+}
+.top-nav ul{
+    padding: 0;
+    margin: auto;
+}
+.nav-icon{
+    width: 400px;
+    height: 40px;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+
+    overflow: hidden;
+    text-shadow: 2px 2px 4px gray;
+}
+.nav-icon2{
+    width: 400px;
+    height: 40px;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+
+    overflow: hidden;
+    text-shadow: 2px 2px 4px gray;
+}
+.border{
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 2px;
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: #fff;
+}
+.border.top{
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translate3d(-100%,0,0);
+}
+.border.right{
+    height: 100%;
+    right: 0;
+    top: 0;
+    transform: translate3d(0,-100%,0);
+}
+.border.bottom{
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    transform: translate3d(110%,0,0);
+}
+.border.left{
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translate3d(0,100%,0);
+}
+.nav-icon:hover .border{
+    transform: translate3d(0,0,0);
+}
+.menu-icon{
+    width: 300px;
+}
+.hamburger{
+    width: 40px;
+    height: 30px;
+    margin-right: 10%;
+}
+.top-hamburger{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top:0 ;
+    left: 0;
+}
+.middle-hamburger{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.bottom-hamburger{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.menu-content{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 30px;
+    margin-top: 20px;
+    transform: translate3d(500px,0,0);
+    transition: 1s;
+}
+.menu-content li{
+    padding: 10px;
+}
+.hamburger:hover .menu-content{
+    transform: translate3d(-50%,0,0);
+}
+.menu-content ul{
+    padding: 0;
+}
+.menu-content li:hover{
+    color: lightblue;
+}
+.twitter:hover{
+    color: lightblue;
+}
+.mask{
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    height: 120%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.query-dialog,
+.schedule-dialog{
+    display: none;
+    background-color: white;
+    position: fixed;
+    z-index: 4;
+    border-radius: 4px;
+    overflow-y: auto;
+    max-height: 70%;
+    width: 500px;
+    top: 100px;
+    left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+
+}
+textarea{
+    width: 400px;
+}
+.send-btn{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+.calender{
+    width: 400px;
+    height: 400px;
+}
+.top-img-container{
+    height: 800px;
+    background-color: lightgrey;
+}
+.top-img{
+    top: 0;
+    left: 0;
+    width:100%;
+    height: auto;
+    max-width: 100%;
+    animation-name: fade-in1;
+    animation-duration: 4s; //アニメーション時間
+animation-timing-function: ease-out; //アニメーションさせるイージング
+animation-iteration-count: 1; //繰り返し回数
+animation-direction: normal; //往復処理をするかどうか
+animation-fill-mode: forwards; //アニメーション後のスタイルをどうするか
+}
+@keyframes fade-in1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.sub-title{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    font-size: 40px;
+    color: white;
+
+    font-weight: bold;
+    opacity: 0.9;
+
+}
+.title{
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    font-size: 200px;
+    color: cadetblue;
+    letter-spacing: 10px;
+    opacity: 0.7;
+}
+.esperto{
+    padding: 50px 0 50px 0;
+}
+.esperto-box{
+    margin:auto;
+    width: 800px;
+    text-align: center;
+}
+.esperto-title{
+    font-size: 60px;
+}
+.esperto-paragraph{
+    font-size: 20px;
+    width: 600px;
+    margin: auto;
+}
+.emblem-img{
+    width: 500px;
+    height: 500px;
+    animation-name: fade-in1;
+    animation-duration: 4s;
+    animation-timing-function: ease-out; //アニメーションさせるイージング
+animation-iteration-count: 1; //繰り返し回数
+animation-direction: normal; //往復処理をするかどうか
+animation-fill-mode: forwards; //アニメーション後のスタイルをどうするか
+}
+.main-contents{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.content{
+    display: flex;
+}
+.left-content{
+    width: 600px;
+    margin: 100px 0 0 100px;
+}
+.left-title{
+    font-size: 60px;
+    text-shadow: 2px 2px 4px gray;
+}
+.left-paragraph{
+    font-size: 20px;
+}
+.left-paragraph li{
+    margin-bottom:20px;
+}
+.right-img,
+.map{
+    width: 400px;
+    height: 400px;
+    margin: 100px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+footer{
+}
+
+
+.game-table{
+    margin-bottom: 50px;
+}
+.year{
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px gray;
+}
+.table{
+    margin: auto;
+    border: solid 1px black;
+    width: 600px;
+    text-align: center;
+}
+.table th{
+    font-size: 20px;
+}
+
+
+
+

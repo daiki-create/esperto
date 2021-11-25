@@ -1,0 +1,89 @@
+body,
+.main-contents{
+    width: 800px;
+}
+.left-content{
+    width: 400px;
+    margin-left: 0;
+    padding-left: 50px;
+}
+.left-title{
+    font-size: 50px;
+}
+.left-paragraph{
+    font-size: 20px;
+}
+.right-content{
+    width: 400px;
+    padding-right: 50px;
+}
+.right-img,
+.map{
+    width: 400px;
+    height: 400px;
+}
+.query-dialog,
+.schedule-dialog{
+    left: 25px;
+    width: 750px;
+    padding: 25px;
+}
+.esperto-box{
+    width: 90%;
+}
+.menu-content{
+    margin-top: 20px;
+}
+.table{
+    text-align: center;
+}
+.year{
+    font-size: 60px;
+}
+.table th{
+    font-size: 30px;
+}
+.table td{
+    font-size: 20px;
+}
+.games-main-contents{
+    margin-bottom: 500px;
+}
+.calender{
+    width: 700px;
+    height: 700px;
+    font-size: 20px;
+}
+.query-form{
+    margin: 0;
+    width: 700px;
+}
+.query-form textarea{
+    width: 700px;
+    font-size: 20px;
+}
+.query-form .input-name{
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.query-form label{
+    font-size: 30px;
+}
+.query-form .input-subject{
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+}
+.send-btn{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+
+}
+.map2{
+    width: 700px;
+    height: 700px;
+}
+

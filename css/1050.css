@@ -1,0 +1,23 @@
+.nav-icon{
+    width: 300px;
+}
+.top-img-container{
+    height: 600px;
+}
+.title{
+    left: 10%;
+    font-size: 150px;
+}
+.sub-title{
+    left: 20%;
+    font-size: 30px;
+}
+.main-contents{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.right-img,
+.map{
+    margin-left: 20px;
+    margin-right: 20px;
+}

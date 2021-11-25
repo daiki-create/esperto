@@ -1,0 +1,11 @@
+.nav-icon{
+    width: 200px;
+}
+.main-contents{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.schedule-dialog,
+.query-dialog{
+    left: 150px;
+}
